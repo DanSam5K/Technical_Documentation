@@ -31,3 +31,20 @@ main{
     border-bottom: 1px solid grey;
     flex: 400px;
 }
+
+@media screen and (max-width: 700px){
+    main {
+        width: 60vw;
+        left: 15rem;
+        
+    }
+    #navbar{
+       /* display: flex;
+        flex-direction: column;
+        order: 0;
+        position: fixed;
+        top:0;*/
+        left:0.5rem;
+        width: 40vw;
+    }
+}
