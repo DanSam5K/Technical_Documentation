@@ -8,6 +8,7 @@ main{
     position: absolute;
     top: 0;
     left: 20vw;
+    width: 70vw;
 
 }
 
@@ -17,7 +18,7 @@ main{
     order: 0;
     position: fixed;
     top:0;
-    left:2rem;
+    left:1rem;
     width: 20vw;
 }
 
@@ -29,22 +30,32 @@ main{
     text-align: left;
     margin: 4rem;
     border-bottom: 1px solid grey;
-    flex: 400px;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 900px){
     main {
         width: 60vw;
-        left: 15rem;
+        left: 20rem;
         
     }
     #navbar{
-       /* display: flex;
-        flex-direction: column;
-        order: 0;
-        position: fixed;
-        top:0;*/
         left:0.5rem;
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 400px){
+    main {
         width: 40vw;
+        left: 2rem;
+        overflow-x: none;
+        
+    }
+    #navbar{
+        left:0.2rem;
+        width: 60vw;
+        margin: 0;
+        font-size: 0.5rem;
+        word-wrap: break-word;
     }
 }
